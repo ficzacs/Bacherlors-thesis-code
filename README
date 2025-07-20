@@ -1,0 +1,4 @@
+This is the code used in my bachelors thesis. The aim of this thesis is to compare mapping and pathfinding algorithms on a grid-based map based on various properties, using a self-built program. 
+The program is capable of mapping a top-down view of a field, navigating from a starting point to a target points able to avoid obstacles, including those that appear on the field after the initial mapping.
+Once the target is reached, communicates the route taken to the user. 
+Can quickly and dinamically run up to thousands of iterations, thus comparing the efficiency of the algorithms.
