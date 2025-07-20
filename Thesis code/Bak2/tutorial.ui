@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Tutorial</class>
+ <widget class="QDialog" name="Tutorial">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1240</width>
+    <height>378</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>1203</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Első lépésként a felfedezési módot választjuk ki. Az algoritmus ilyenkor felfedezi az utat a célhoz.  A felfedezett rácsok sárga színnel jelennek meg.</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Ezután kiválaszthatjuk a legrövidebb útkeresés módját. Ilyenkor a program megkeresi a legrövidebb utat kizárólag a feltérképezett részeket kihasználva.</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Lehetőségünk van akadályokat lehelyezni, ezeket a program kikerüli akár a feltérképezés során, akár a legrövidebb útkeresés során.</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Ez megtörténhet úgy, hogy megadjuk, mennyi akadályt szeretnénk lehelyezni és a program véletlenszerűen lehelyezi. Továbbá lehelyezhetjük őket úgy is, hogy a gombokra kattintunk.</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>A program képes érzékelni, ha a végpont nem érhető el.</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>A szimulációs módban nagyobb mennyiségűt tudunk lefuttatni rövid idő alatt.</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>A térkép betöltő módban előre meghatározott térképekkel tudunk folgalkozn.</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Simulation_mode</class>
+ <widget class="QDialog" name="Simulation_mode">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>557</width>
+    <height>523</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <widget class="QLabel" name="info_label_5">
+     <property name="text">
+      <string>Number of obstacles:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSpinBox" name="obs_num_box">
+     <property name="maximum">
+      <number>300</number>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="delay_checkbox">
+     <property name="text">
+      <string>No delay mode</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="info_label2">
+       <property name="text">
+        <string>Number of simulations:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="sim_nums_box">
+       <property name="maximum">
+        <number>10000</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="sim_init_button">
+       <property name="text">
+        <string>Simulate</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QRadioButton" name="explore_mode_1">
+       <property name="text">
+        <string>Random</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="explore_mode_3">
+       <property name="text">
+        <string>DFS</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="explore_mode_4">
+       <property name="text">
+        <string>BFS</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="explore_mode_2">
+       <property name="text">
+        <string>Greedy BFS</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="explore_mode_5">
+       <property name="text">
+        <string>A*</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="info_label3">
+       <property name="text">
+        <string>Data of each: </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="out_text_all"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="info_label4">
+       <property name="text">
+        <string>Final data:</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="out_text_final"/>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
